@@ -9,4 +9,4 @@
 4. 请勿将该项目的任何内容用于商业或非法目的，否则后果自负。
  
 # 加入我们
-更多信息请阅读[JOINUS.md](https://github.com/Akimio521/ButterRuler/blob/main/JOINUS.md)
+更多信息请阅读[JOINUS.md](https://github.com/Akimio521/BetterRuler/blob/main/JOINUS.md)
