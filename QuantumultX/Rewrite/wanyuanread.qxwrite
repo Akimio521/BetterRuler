@@ -1,0 +1,4 @@
+hostname = buy.itunes.apple.com
+
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/wanyuanread.js
+
