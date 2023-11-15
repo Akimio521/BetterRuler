@@ -6,7 +6,7 @@
 
 [Script]
 
-http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/Akimio521/BetterRuler/main/Script/wanyuanread.js, requires-body=true, timeout=60 ,tag=万源阅读Pro
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/wanyuanread.js, requires-body=true, timeout=60 ,tag=万源阅读Pro
 
 [MITM]
 
