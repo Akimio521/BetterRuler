@@ -1,0 +1,13 @@
+
+
+#!name=万源阅读Pro
+#!desc=万源阅读解锁，非一次性。破解方式为苹果内购恢复购买。
+#!icon=https://raw.githubusercontent.com/BautistaClay/shuwumu/main/Repository/Scripts/icon/app/wanyuanread/wanyuanread.png
+
+[Script]
+
+http-response ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt script-path=https://raw.githubusercontent.com/BautistaClay/BetterRuler/main/Script/wanyuanread.js, requires-body=true, timeout=60 ,tag=万源阅读Pro
+
+[MITM]
+
+hostname = buy.itunes.apple.com
