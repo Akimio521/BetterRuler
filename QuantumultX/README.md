@@ -9,3 +9,4 @@
 | - | - | - | - | - |
 | BoxJS | chavyleung | 2023.11.15 | [BoxJS-QuantumultX重写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Rewrite/BoxJS.snippet) | [BoxJS-作者仓库](https://github.com/chavyleung/scripts) |
 | SubStore | sub-store-org | 2023.11.15 | [SubStore-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Plugin/SubStore.snippet) | [SubStore-作者仓库](https://github.com/sub-store-org/Sub-Store) |
+| 万源阅读会员 | Yu9191 | 2023.11.16 | [万源阅读Pro-QuantumultX重写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Rewrite/wanyuanread.qxwrite) | [万源阅读-作者仓库](https://github.com/Yu9191/Rewrite) |
