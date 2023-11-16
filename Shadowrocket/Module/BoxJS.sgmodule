@@ -1,0 +1,11 @@
+#!name=BoxJs
+#!desc=http://boxjs.com
+
+[General]
+force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
+
+[Script]
+Rewrite: BoxJs = type=http-request,pattern=^https?:\/\/(.+\.)?boxjs\.(com|net),script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/BoxJS.js, requires-body=true, timeout=120
+
+[MITM]
+hostname = %INSERT% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
