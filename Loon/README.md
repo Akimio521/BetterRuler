@@ -14,3 +14,4 @@
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | Spotify会员解锁 | app2smile | 2023.11.16 | [Spotify会员解锁-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Loon/Plugin/Spotify/Spotify.plugin) | [Spotify会员解锁-作者仓库](https://github.com/app2smile/rules) | 需要系统版本>=iOS15；Spotify音质不能设置为超高 |
+| Spotify歌词翻译 | app2smile | 2023.11.16 | [Spotify会员解锁-README](https://github.com/Akimio521/BetterRuler/blob/main/Loon/Plugin/Spotify/README.md) | [Spotify会员解锁-作者仓库](https://github.com/app2smile/rules) | 建议先看README |

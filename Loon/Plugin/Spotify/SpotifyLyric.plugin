@@ -1,0 +1,12 @@
+#!name=Spotify歌词翻译
+#!desc=将Spotify的外语歌词翻译为简体中文
+#!icon=https://ghproxy.com/https://raw.githubusercontent.com/Akimio521/BetterRuler/main/ICON/AppStore/Spotify.png
+#!input=Appid
+#!input=SecretKey
+# JavaScript作者：@app2smile、Loon插件作者：@Akimio521
+
+[Script]
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Spotify/spotify-lyric.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
+
+[Mitm]
+hostname = spclient.wg.spotify.com
