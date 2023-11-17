@@ -1,0 +1,36 @@
+name: Sub-Store
+desc: 高级订阅管理工具 @Peng-YM
+
+http:
+  mitm:
+    - sub.store
+  script:
+    - match: ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))
+      name: sub-store-1
+      type: request
+      require-body: true
+      timeout: 120
+    - match: ^https?:\/\/sub\.store
+      name: sub-store-0
+      type: request
+      require-body: true
+      timeout: 120
+
+cron:
+  script:
+    - name: cron-sync-artifacts
+      cron: "0 0 * * *"
+      timeout: 120
+
+script-providers:
+  sub-store-0:
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/SubStore/sub-store-0.min.js
+    interval: 86400
+
+  sub-store-1:
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/SubStore/sub-store-1.min.js
+    interval: 86400
+
+  cron-sync-artifacts:
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/SubStore/cron-sync-artifacts.min.js
+    interval: 86400
