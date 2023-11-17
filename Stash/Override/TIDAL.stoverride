@@ -19,8 +19,8 @@ http:
 script-providers:
   TIDALHiFiPlusCrack:
     url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
-    interval: 0
+    interval: 86400
   TIDALMasterCrack:
     url: https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/TIDAL/tidal.js
-    interval: 0
+    interval: 86400
 
