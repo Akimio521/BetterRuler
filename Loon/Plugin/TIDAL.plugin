@@ -1,8 +1,7 @@
 #!name = TIDAL
 #!desc = 解锁 HiFi Plus 权限
-#!openUrl = 
 #!author = Hausd0rff yuheng
-#!icon = https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/ICON/AppStore/TIDAL.png?
+#!icon = https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/ICON/AppStore/TIDAL.png
 #!date = 2023-10-31 15:00:00
 # 仓库地址 https://github.com/Yuheng0101/X
 # 功能:1.修复脚本失效 2.兼容主流平台 3.去除全局广告 4.解锁永久订阅 5.解锁会员图标 6.解锁会员曲库破解最高音质
