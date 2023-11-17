@@ -1,0 +1,19 @@
+#!name = TIDAL
+#!desc = 解锁 HiFi Plus 权限
+#!openUrl = 
+#!author = Hausd0rff yuheng
+#!icon = https://ghproxy.com/https://raw.githubusercontent.com/Akimio521/BetterRuler/main/ICON/TIDAL.png?
+#!date = 2023-10-31 15:00:00
+# 仓库地址 https://github.com/Yuheng0101/X
+# 功能:1.修复脚本失效 2.兼容主流平台 3.去除全局广告 4.解锁永久订阅 5.解锁会员图标 6.解锁会员曲库破解最高音质
+
+[Script]
+# 解锁个人中心
+http-response ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDALHiFiPlusCrack.js, requires-body=true, timeout=60, tag=TIDALHiFiPlusCrack
+
+# 解锁音质
+http-request ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Scripts/TIDAL/TIDAL.js, requires-body=true, timeout=60, tag=TIDALMasterCrack
+
+  
+[Mitm]
+hostname = api.tidal.com

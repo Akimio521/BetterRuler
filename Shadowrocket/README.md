@@ -13,3 +13,4 @@
 | 模块 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | Spotify会员解锁 | app2smile | 2023.11.16 | [Spotify会员解锁-Shadowrocket模块](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Shadowrocket/Module/Spotify/Spotify.sgmodule) | [Spotify会员解锁-作者仓库](https://github.com/app2smile/rules) | 需要系统版本>=iOS15；Spotify音质不能设置为超高 |
+| TIDAL会员解锁 | Yuheng0101 | 2023.11.17 | [TIDAL会员解锁-Shadowrocket模块](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Shadowrocket/Module/TIDAL.sgmodule) | [[TIDAL会员解锁-作者仓库](https://github.com/Yuheng0101/X)] | 支持软件版本：v2.93.2 【美区】先登账号, 再运行脚本 |
