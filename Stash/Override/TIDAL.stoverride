@@ -1,0 +1,32 @@
+#SUBSCRIBED https://cdn.jsdelivr.net/gh/MajinKidBuu/BetterRuler@main/Loon/Plugin/TIDAL.plugin
+#!name=TIDAL
+#!desc=2023-10-31 解锁 HiFi Plus 权限
+name: TIDAL
+desc: 2023-10-31 解锁 HiFi Plus 权限
+
+http:
+  mitm:
+    - "api.tidal.com"
+  script:
+    - match: ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+
+      name: TIDALHiFiPlusCrack
+      type: request
+      require-body: true
+      max-size=3145728
+      timeout: 60
+    - match: ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+
+      name: TIDALMasterCrack
+      type: response
+      require-body: true
+      max-size=3145728
+      timeout: 60
+
+script-providers:
+  TIDALHiFiPlusCrack:
+    url: https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+    interval: 0
+
+  TIDALMasterCrack:
+    url: https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/TIDAL/tidal.js
+    interval: 0
+
