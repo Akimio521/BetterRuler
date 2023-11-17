@@ -14,5 +14,5 @@
 | - | - | - | - | - | - |
 | Spotify会员解锁 | app2smile | 2023.11.16 | [Spotify会员解锁-QuantumultX重写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Rewrite/Spotify/Spotify.snippet) | [Spotify会员解锁-作者仓库](https://github.com/app2smile/rules) | 需要系统版本>=iOS15；Spotify音质不能设置为超高 |
 | Spotify歌词翻译 | app2smile | 2023.11.16 | [Spotify会员解锁-README](https://github.com/Akimio521/BetterRuler/blob/main/QuantumultX/Rewrite/Spotify/README.md) | [Spotify会员解锁-作者仓库](https://github.com/app2smile/rules) | 建议先看README |
-| TIDAL会员解锁 | Yuheng0101 | 2023.11.17 | [TIDAL会员解锁-QuantumultX重写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Rewrite/TIDAL.snippet) | [[TIDAL会员解锁-作者仓库](https://github.com/Yuheng0101/X)] | 支持软件版本：v2.93.2 【美区】先登账号, 再运行脚本 |
+| TIDAL会员解锁 | Yuheng0101 | 2023.11.17 | [TIDAL会员解锁-QuantumultX重写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Rewrite/TIDAL.snippet) | [TIDAL会员解锁-作者仓库](https://github.com/Yuheng0101/X)] | 支持软件版本：v2.93.2 【美区】先登账号, 再运行脚本 |
 
