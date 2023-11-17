@@ -1,4 +1,4 @@
-#SUBSCRIBED https://cdn.jsdelivr.net/gh/MajinKidBuu/BetterRuler@main/Loon/Plugin/TIDAL.plugin
+#SUBSCRIBED https://github.com/MajinKidBuu/BetterRuler/blob/main/Stash/Override/TIDAL.stoverride
 #!name=TIDAL
 #!desc=2023-10-31 解锁 HiFi Plus 权限
 name: TIDAL
