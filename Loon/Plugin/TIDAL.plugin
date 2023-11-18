@@ -11,7 +11,7 @@
 http-response ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDALHiFiPlusCrack.js, requires-body=true, timeout=60, tag=TIDALHiFiPlusCrack
 
 # 解锁音质
-http-request ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Scripts/TIDAL/TIDAL.js, requires-body=true, timeout=60, tag=TIDALMasterCrack
+http-request ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDAL.js, requires-body=true, timeout=60, tag=TIDALMasterCrack
 
   
 [Mitm]
