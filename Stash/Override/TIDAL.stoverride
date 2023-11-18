@@ -15,6 +15,7 @@ http:
       name: TIDALMasterCrack
       type: response
       require-body: true
+      max-size: 0
       timeout: 60
 script-providers:
   TIDALHiFiPlusCrack:
