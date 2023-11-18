@@ -7,7 +7,7 @@
 # 解锁个人中心
 TIDALHiFiPlusCrack = type=http-response, pattern=^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+, requires-body=true, max-size=3145728, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDALHiFiPlusCrack.js, timeout=60, script-update-interval=0
 # 解锁音质
-TIDALMasterCrack = type=http-request, pattern=^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+, requires-body=true, max-size=3145728, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Scripts/TIDAL/TIDAL.js, timeout=60, script-update-interval=0
+TIDALMasterCrack = type=http-request, pattern=^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+, requires-body=true, max-size=3145728, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDAL.js, timeout=60, script-update-interval=0
 
 [MITM]
 hostname = %APPEND% api.tidal.com
