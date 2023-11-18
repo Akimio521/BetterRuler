@@ -22,6 +22,6 @@ script-providers:
     url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDALHiFiPlusCrack.js
     interval: 0
   TIDALMasterCrack:
-    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Scripts/TIDAL/TIDAL.js
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDAL.js
     interval: 0
 
