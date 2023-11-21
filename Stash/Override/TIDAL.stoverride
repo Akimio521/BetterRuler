@@ -1,0 +1,27 @@
+#!name=TIDAL
+#!desc=2023-10-31 解锁 HiFi Plus 权限
+name: TIDAL
+desc: 2023-10-31 解锁 HiFi Plus 权限
+http:
+  mitm:
+    - "api.tidal.com"
+  script:
+    - match: ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+
+      name: TIDALHiFiPlusCrack
+      type: request
+      require-body: true      
+      timeout: 60
+    - match: ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+
+      name: TIDALMasterCrack
+      type: response
+      require-body: true
+      max-size: 0
+      timeout: 60
+script-providers:
+  TIDALHiFiPlusCrack:
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDALHiFiPlusCrack.js
+    interval: 0
+  TIDALMasterCrack:
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDAL.js
+    interval: 0
+

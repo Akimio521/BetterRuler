@@ -1,0 +1,9 @@
+# 2023-10-31 解锁 HiFi Plus 权限
+# 仓库地址 https://github.com/Yuheng0101/X
+# 功能:1.修复脚本失效 2.兼容主流平台 3.去除全局广告 4.解锁永久订阅 5.解锁会员图标 6.解锁会员曲库破解最高音质
+
+[rewrite_local]
+^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDALHiFiPlusCrack.js
+^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/TIDAL/TIDAL.js
+[mitm]
+hostname = api.tidal.com
