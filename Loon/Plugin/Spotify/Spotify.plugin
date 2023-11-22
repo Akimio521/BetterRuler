@@ -1,0 +1,12 @@
+#!name=Spotify(>=iOS15)
+#!desc=2023.10.04 部分解锁premium,音质不能设置为超高(建议登录后再打开脚本,重启app等待脚本生效)
+#!icon=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/ICON/AppStore/Spotify.png
+# 仓库地址 https://github.com/app2smile/rules
+# 功能: 1.去除播放广告 2.歌手/专辑列表正常展示 3.去除随机播放
+
+[MITM]
+hostname = spclient.wg.spotify.com
+
+[Script]
+http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Spotify/spotify-json.js, timeout=10, tag=spotifyJson
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Spotify/spotify-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=spotifyProto
