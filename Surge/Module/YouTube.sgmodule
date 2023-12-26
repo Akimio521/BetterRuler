@@ -1,0 +1,19 @@
+#!name=YouTube去广告
+#!desc=Surge模块制作 By @Akimio521
+#移除YouTube视频、瀑布流、搜索和Shorts中的广告，移除底部的上传按钮，增加画中画及解锁更多的字幕地区功能。移除YouTube Music底部的上传、选段和升级按钮，支持二者的后台播放。此插件不能与其他具有YouTube广告过滤能力的插件一起使用，并且需要禁用UDP协议的443端口。此插件仅建议iOS 15以上设备使用，支持Premium订阅用户使用，不支持tvOS设备。
+
+[MITM]
+
+hostname = %APPEND% *.googlevideo.com, youtubei.googleapis.com
+
+[Map Local]
+
+# 使用reject-200方法以减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data="https://raw.githubusercontent.com/mieqq/mieqq/master/reject-200.txt"
+
+[Script]
+
+# YouTube去广告
+YouTube请求 = type=http-request, pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence), script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/YouTube/YouTube_remove_ads_request.js, requires-body=true, binary-body-mode=true
+
+YouTube响应 = type=http-response, pattern=^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting), script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/YouTube/YouTube_remove_ads_response.js, requires-body=true, binary-body-mode=true

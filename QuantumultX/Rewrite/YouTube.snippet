@@ -1,0 +1,14 @@
+#!name=YouTube
+#!desc=Shadowrocket模块制作 By Akimio521
+#移除YouTube视频、瀑布流、搜索和Shorts中的广告，移除底部的上传按钮，增加画中画及解锁更多的字幕地区功能。移除YouTube Music底部的上传、选段和升级按钮，支持二者的后台播放。此插件不能与其他具有YouTube广告过滤能力的插件一起使用，并且需要禁用UDP协议的443端口。此插件仅建议iOS 15以上设备使用，支持Premium订阅用户使用，不支持tvOS设备。
+
+[rewrite_local]
+# YouTube请求
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence) url script-request-header https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/YouTube/YouTube_remove_ads_request.js
+# YouTube响应
+^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-response-body https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/YouTube/YouTube_remove_ads_response.js
+# 使用reject-200方法以减少开销
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-200
+
+[mitm]
+hostname = *.googlevideo.com, youtubei.googleapis.com
