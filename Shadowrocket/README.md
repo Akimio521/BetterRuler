@@ -7,7 +7,7 @@
 | 模块 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | BoxJS | chavyleung | 2023.11.16 | [BoxJS-Shadowrocket模块](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Shadowrocket/Module/BoxJS.sgmodule) | [BoxJS-作者仓库](https://github.com/chavyleung/scripts) |   |
-| SubStore | sub-store-org | 2023.11.16 | [SubStore-Shadowrocket模块](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Shadowrocket/Module/SubStore.sgmodule) | [SubStore-作者仓库](https://github.com/sub-store-org/Sub-Store) |   |
+| SubStore | sub-store-org | 2023.12.26 | [SubStore-Shadowrocket模块](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Shadowrocket/Module/SubStore.sgmodule) | [SubStore-作者仓库](https://github.com/sub-store-org/Sub-Store) |   |
 
 ### 音乐
 | 模块 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
