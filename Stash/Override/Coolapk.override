@@ -1,0 +1,28 @@
+name: 酷安去广告
+desc: 过滤酷安广告 By @ddgksf2013；@Akimio521
+http:
+  mitm:
+    - "api.coolapk.com"
+  script:
+    - match: ^https?:\/\/api.coolapk.com\/v6\/main\/init        # 移除开屏广告
+      name: Coolapk-ADBlock
+      type: response
+    - match: ^https?:\/\/api.coolapk.com\/v6\/dataList          # 移除推广广告
+      type: response
+    - match: ^https?:\/\/api.coolapk.com\/v6\/main\/indexV8     # 移除首页广告
+      name: Coolapk-ADBlock
+      type: response
+    - match: ^https?:\/\/api.coolapk.com\/v6\/feed\/replyList   # 移除评论广告
+      name: Coolapk-ADBlock
+      type: response
+    - match: ^https?:\/\/api.coolapk.com\/v6\/feed\/detail      # 移除商品推广
+      name: Coolapk-ADBlock
+      type: response
+  url-rewrite:
+    - ^https?:\/\/api\.coolapk\.com\/v6\/search\?.* - reject    # 屏蔽热词
+
+script-providers:
+  Coolapk-ADBlock:
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Coolapk.js
+
+

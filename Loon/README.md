@@ -20,3 +20,4 @@
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | 哔哩万象 | BiliUniverse | 2023.11.21 | [哔哩万象-README](https://github.com/Akimio521/BetterRuler/blob/main/Loon/Plugin/BiliBili/README.md) | [哔哩万象-作者仓库](https://github.com/BiliUniverse) | 建议先看README |
+| 酷安去广告 | ddgksf2013 | 2023.11.22 | [酷安去广告-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Loon/Plugin/Coolapk.plugin) | [酷安去广告-作者仓库](https://github.com/ddgksf2013/Scripts) | JavaScript By @ddgksf2013；Loon插件 By @Akimio521 |

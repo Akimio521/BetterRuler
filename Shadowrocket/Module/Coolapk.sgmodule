@@ -1,0 +1,22 @@
+#!name=酷安去广告
+#!desc=过滤酷安广告
+#!author=@ddgksf2013；@Akimio521
+#!icon=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/ICON/AppStore/Coolapk.png
+
+[MITM]
+hostname = %APPEND% api.coolapk.com
+
+[Script]
+# 移除开屏广告
+Coolapk-ADBlock-startup = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/main\/init, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Coolapk.js
+# 移除推广广告
+Coolapk-ADBlock-promotional = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/dataList, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Coolapk.js
+# 移除首页广告
+Coolapk-ADBlock-homepage = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/main\/indexV8, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Coolapk.js
+# 移除评论广告
+Coolapk-ADBlock-comment = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/replyList, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Coolapk.js
+# 移除商品推广
+Coolapk-ADBlock-product = type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/detail, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Coolapk.js
+
+[Rule]
+URL-REGEX,^https?:\/\/api\.coolapk\.com\/v6\/search\?.*,REJECT
