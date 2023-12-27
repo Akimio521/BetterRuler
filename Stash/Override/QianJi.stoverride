@@ -1,0 +1,21 @@
+name: "钱迹会员解锁"
+desc: "Stash复写制作 BY @Akimio521"
+
+http:
+
+  mitm:
+    - "qianji.xxoojoke.com"
+
+  script:
+
+    - match: ^https:\/\/qianji\.xxoojoke\.com\/vip\/configios
+      name: "QianJi_1"
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+script-providers:
+  "QianJi_1":
+    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/QianJi.js
+    interval: 86400

@@ -1,0 +1,11 @@
+#!name=钱迹会员解锁
+#!desc=Loon插件制作 BY @Akimio521
+#!icon=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/ICON/AppStore/QianJi.png
+
+[MITM]
+
+hostname = qianji.xxoojoke.com
+
+[Script]
+
+http-response ^https:\/\/qianji\.xxoojoke\.com\/vip\/configios script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/QianJi.js, requires-body=true, timeout=60, tag=QianJi

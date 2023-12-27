@@ -1,0 +1,10 @@
+#!name=钱迹会员解锁
+#!desc=Surge模块制作 BY @Akimio521
+
+[MITM]
+
+hostname = %APPEND% qianji.xxoojoke.com
+
+[Script]
+
+QianJi = type=http-response, pattern=^https:\/\/qianji\.xxoojoke\.com\/vip\/configios, script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/QianJi.js, requires-body=true, max-size=-1, timeout=60

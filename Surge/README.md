@@ -29,3 +29,8 @@
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | 知乎去广告 | app2smile | 2023.12.26 | [知乎去广告-Surge模块](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Surge/Module/ZhiHu.sgmodule) | [知乎去广告-作者仓库](https://github.com/app2smile/rules) | Surge模块制作 BY @Akimio521 |
+
+### 财务
+| 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
+| - | - | - | - | - | - |
+| 钱迹会员解锁 | 89996462 | 2023.12.27 | [钱迹会员解锁-Surge模块](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Surge/Module/QianJi.sgmodule) | [钱迹会员解锁-作者仓库](https://github.com/89996462/Quantumult-X/) | Surge模块制作 BY @Akimio521 |
