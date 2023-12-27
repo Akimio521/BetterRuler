@@ -16,6 +16,7 @@
 | Spotify歌词翻译 | app2smile | 2023.11.16 | [Spotify会员解锁-README](https://github.com/Akimio521/BetterRuler/blob/main/Loon/Plugin/Spotify/README.md) | [Spotify会员解锁-作者仓库](https://github.com/app2smile/rules) | 建议先看README |
 | TIDAL会员解锁 | Yuheng0101 | 2023.11.17 | [TIDAL会员解锁-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Loon/Plugin/TIDAL.plugin) | [TIDAL会员解锁-作者仓库](https://github.com/Yuheng0101/X) | 支持软件版本：v2.93.2 【美区】先登账号, 再运行脚本 |
 | 网易云音乐去广告 | Keywos RuCu6 kokoryh | 2023.12.26 | [网易云音乐去广告-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Loon/Plugin/NeteaseCloudMusic/NeteaseCloudMusic_AD.plugin) | [网易云音乐去广告-作者仓库](https://gitlab.com/lodepuly/vpn_tool/) |  |
+| QQ音乐去广告 | 可莉🅥 | 2023.12.27 | [QQ音乐去广告-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Loon/Plugin/QQMusic.plugin) | [QQ音乐去广告-作者仓库](https://gitlab.com/lodepuly/vpn_tool/) |  |
 
 ### 娱乐
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
