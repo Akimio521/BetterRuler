@@ -33,3 +33,8 @@
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | 钱迹会员解锁 | 89996462 | 2023.12.27 | [钱迹会员解锁-QuantumultX重写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Rewrite/QianJi.snippet) | [钱迹会员解锁-作者仓库](https://github.com/89996462/Quantumult-X/) | QuantumultX重写制作 BY @Akimio521 |
+
+### 效率
+| 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
+| - | - | - | - | - | - |
+| Xmind会员解锁 | I-am-R-E | 2023.12.27 | [Xmind会员解锁-QuantumultX重写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/QuantumultX/Rewrite/Xmind.snippet) | [Xmind会员解锁-作者仓库](hhttps://github.com/I-am-R-E/Functional-Store-Hub/) |  |
