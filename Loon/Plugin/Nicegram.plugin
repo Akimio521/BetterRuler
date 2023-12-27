@@ -1,0 +1,11 @@
+#!name=Nicegram会员
+#!desc=解锁Nicegram会员(2022.11.19)
+#!openUrl=https://github.com/I-am-R-E/Functional-Store-Hub/tree/Master/Nicegram
+#!author=@R·E https://t.me/Functional_Store_Hub
+#!icon=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/ICON/AppStore/Nicegram.png
+
+[Script]
+http-request ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\w+$ script-path=https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/Nicegram.js, timeout=10, tag=Nicegram会员
+
+[MITM]
+hostname = restore-access.indream.app

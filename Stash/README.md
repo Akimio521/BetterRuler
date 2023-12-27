@@ -24,6 +24,7 @@
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | 知乎去广告 | app2smile | 2023.12.26 | [知乎去广告-Stash复写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Stash/Override/ZhiHu.stoverride) | [知乎去广告-作者仓库](https://github.com/app2smile/rules) | Stash复写制作 BY @Akimio521 |
+| Nicegram会员解锁 | I-am-R-E | 2023.12.27 | [Nicegram会员解锁-Stash复写](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Stash/Override/Nicegram.stoverride) | [WPS会员解锁-作者仓库](hhttps://github.com/I-am-R-E/Functional-Store-Hub/) |  |
 
 ### 财务
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |

@@ -28,6 +28,7 @@
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
 | - | - | - | - | - | - |
 | 知乎去广告 | app2smile | 2023.12.26 | [知乎去广告-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Loon/Plugin/ZhiHu.plugin) | [知乎去广告-作者仓库](https://github.com/app2smile/rules) | 开屏页广告,首页右下角悬浮框,推荐列表广告,问题回答列表广告,具体回答下广告 |
+| Nicegram会员解锁 | I-am-R-E | 2023.12.27 | [Nicegram会员解锁-Loon插件](https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Loon/Plugin/Nicegram.plugin) | [WPS会员解锁-作者仓库](hhttps://github.com/I-am-R-E/Functional-Store-Hub/) |  |
 
 ### 财务
 | 插件 | 作者 | 更新日期 | 链接 | 作者地址 | 备注 |
